@@ -1,4 +1,8 @@
 ﻿
 September 7th, 2022
-	- 
-	- 
+	- Changed Mod Icon
+	- Added Items folder
+	- Added Lucille item file
+	- Added Lucille item sprite
+	- Added Projectiles folder
+	- Successfully added Lucille item, currently has no properties
