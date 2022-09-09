@@ -6,3 +6,9 @@ September 7th, 2022
 	- Added Lucille item sprite
 	- Added Projectiles folder
 	- Successfully added Lucille item, currently has no properties
+September 9th, 2022
+	- Added recipe for Lucille, 10 wood, 1 stone, 5 souls of might
+	- Added projectile image for Lucille
+	- Added projectile file for Lucille
+	- Successfully added projectile! Lucille is now a working weapon!
+	- Next: to add a pool ball projectile when you 'fire' the weapon
