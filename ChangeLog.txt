@@ -11,4 +11,9 @@ September 9th, 2022
 	- Added projectile image for Lucille
 	- Added projectile file for Lucille
 	- Successfully added projectile! Lucille is now a working weapon!
-	- Next: to add a pool ball projectile when you 'fire' the weapon
+	- TODO: to add a pool ball projectile when you 'fire' the weapon
+September 12th, 2022
+	- Made Lucille shoot eight ball, but then it stops shooting normal spear projectile
+	- TODO: fix spear :)
+	- Okay so you can't make something shoot multiple projectiles using the method I'm using
+	- eightball items are now unused
