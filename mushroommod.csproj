@@ -14,5 +14,8 @@
     <Reference Include="GlowMaskAPI">
       <HintPath>..\..\..\..\..\..\Downloads\GlowMaskAPI.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics">
+      <HintPath>..\..\..\..\..\..\Downloads\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

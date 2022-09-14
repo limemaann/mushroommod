@@ -1,6 +1,6 @@
-﻿using Microsoft.Xna.Framework.Graphics;
-using System;
-using System.Drawing;
+﻿// using Microsoft.Xna.Framework.Graphics;
+// using System;
+// using System.Drawing;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -14,8 +14,8 @@ namespace mushroommod.Items
         public override void SetStaticDefaults()
         {
             Tooltip.SetDefault("Oceiros, the Consumed King, was infatuated with the search for moonlight, but in the end, it never revealed itself to him.");
+
             glowMask = GlowMaskAPI.Tools.instance.AddGlowMask();
-            // fix the missing assemblies error
         }
 
         public override void SetDefaults()
@@ -27,7 +27,6 @@ namespace mushroommod.Items
             Item.width = 40;
             Item.height = 40;
             Item.maxStack = 1;
-            Item.glowMask = glowMask;
 
             // use properties
             Item.useStyle = ItemUseStyleID.Swing;
