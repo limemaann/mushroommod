@@ -17,3 +17,8 @@ September 12th, 2022
 	- TODO: fix spear :)
 	- Okay so you can't make something shoot multiple projectiles using the method I'm using
 	- eightball items are now unused
+September 14th, 2022
+	- Added moonlight_greatsword.png to Items
+	- Began implimenting the Moonlight Greatsword
+	- Successfully implimented Moonlight Greatsword in basic form, does not shoot or glow yet...
+	- missing assemblies error

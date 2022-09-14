@@ -1,3 +1,4 @@
 displayName = Mushroom Mod
 author = Liam
 version = 0.1
+modReferences = GlowMaskAPI
