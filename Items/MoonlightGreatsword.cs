@@ -1,21 +1,23 @@
-﻿// using Microsoft.Xna.Framework.Graphics;
-// using System;
-// using System.Drawing;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using ReLogic.Text;
+using System.Drawing;
+using System.Numerics;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Rectangle = Microsoft.Xna.Framework.Rectangle;
+using Color = Microsoft.Xna.Framework.Color;
+using Vector2 = Microsoft.Xna.Framework.Vector2;
 
 namespace mushroommod.Items
 {
     public class MoonlightGreatsword : ModItem
     {
-        public static short glowMask;
 
         public override void SetStaticDefaults()
         {
             Tooltip.SetDefault("Oceiros, the Consumed King, was infatuated with the search for moonlight, but in the end, it never revealed itself to him.");
-
-            glowMask = GlowMaskAPI.Tools.instance.AddGlowMask();
         }
 
         public override void SetDefaults()
@@ -40,6 +42,31 @@ namespace mushroommod.Items
             Item.knockBack = 4.75f;
             Item.DamageType = DamageClass.Melee;
         }
+
+        // add PostDraw so it does it in swing mode too
+
+        public override void PostDrawInWorld(SpriteBatch spriteBatch, Microsoft.Xna.Framework.Color lightColor, Microsoft.Xna.Framework.Color alphaColor, float rotation, float scale, int whoAmI)
+        {
+            // says this item is missing, what the fuck
+            Texture2D texture = (Texture2D)ModContent.Request<Texture2D>("Items/MoonlightGreatsword_Glow");
+            spriteBatch.Draw
+            (
+                texture,
+                new Vector2
+                (
+                    Item.position.X - Main.screenPosition.X + Item.width * 0.5f,
+                    Item.position.Y - Main.screenPosition.Y + Item.height - texture.Height * 0.5f + 2f
+                ),
+                new Rectangle(0, 0, texture.Width, texture.Height),
+                Color.White,
+                rotation,
+                texture.Size() * 0.5f,
+                scale,
+                SpriteEffects.None,
+                0f
+            );
+        }
+
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();

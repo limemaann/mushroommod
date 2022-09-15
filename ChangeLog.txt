@@ -22,3 +22,4 @@ September 14th, 2022
 	- Began implimenting the Moonlight Greatsword
 	- Successfully implimented Moonlight Greatsword in basic form, does not shoot or glow yet...
 	- missing assemblies error
+	- see comments on lines 46 & 50 in MoonlightGreatsword.cs
