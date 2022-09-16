@@ -23,3 +23,9 @@ September 14th, 2022
 	- Successfully implimented Moonlight Greatsword in basic form, does not shoot or glow yet...
 	- missing assemblies error
 	- see comments on lines 46 & 50 in MoonlightGreatsword.cs
+September 16th, 2022
+	- Glow still isn't working, MoonlightGreatsword_glow now not being used, trying dusts insted
+	- Adding Dusts folder, and custom dust
+	- Added ElectricDust file and png
+	- Added dust effects to MoonlightGreatsword
+	- TODO: add projectile to MoonlightGreatsword and improve lighting effects
