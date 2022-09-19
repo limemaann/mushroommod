@@ -7,7 +7,7 @@ September 7th, 2022
 	- Added Projectiles folder
 	- Successfully added Lucille item, currently has no properties
 September 9th, 2022
-	- Added recipe for Lucille, 10 wood, 1 stone, 5 souls of might
+	- Added recipe for Lucille, 10 wood, 1 stone, 5 souls of might, at mythril anvil
 	- Added projectile image for Lucille
 	- Added projectile file for Lucille
 	- Successfully added projectile! Lucille is now a working weapon!
@@ -20,6 +20,7 @@ September 12th, 2022
 September 14th, 2022
 	- Added moonlight_greatsword.png to Items
 	- Began implimenting the Moonlight Greatsword
+	- Added recipe for Moonlight Greatsword, Enchanted Sword, 12 Clorophyte Bars, at mythril anvil
 	- Successfully implimented Moonlight Greatsword in basic form, does not shoot or glow yet...
 	- missing assemblies error
 	- see comments on lines 46 & 50 in MoonlightGreatsword.cs
@@ -29,3 +30,6 @@ September 16th, 2022
 	- Added ElectricDust file and png
 	- Added dust effects to MoonlightGreatsword
 	- TODO: add projectile to MoonlightGreatsword and improve lighting effects
+September 19th, 2022
+	- Started on adding moonlight projectile
+	- TODO: Mess with values on moonlight projectile & moonlight sword to make projectile work better

@@ -1,4 +1,5 @@
-﻿using Terraria;
+﻿using Microsoft.Xna.Framework;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -13,15 +14,30 @@ namespace mushroommod.Projectiles
 
         public override void SetDefaults()
         {
-            Projectile.arrow = true;
-            Projectile.width = 10;
-            Projectile.height = 10;
-            Projectile.aiStyle = ProjAIStyleID.Arrow; // or 1
+
+            Projectile.CloneDefaults(ProjectileID.TerraBeam);
+
+            // properties
+            Projectile.alpha = 255;
+            Projectile.width = 44;
+            Projectile.height= 44;
+            Projectile.tileCollide = true;
+            Projectile.ignoreWater = true;
+            Projectile.penetrate = 3;
             Projectile.friendly = true;
-            Projectile.DamageType = DamageClass.Ranged;
-            AIType = ProjectileID.WoodenArrowFriendly;
+            Projectile.hostile = false;
+            Projectile.DamageType = DamageClass.Melee;
+            Projectile.timeLeft = 600;
+
+            AIType = ProjectileID.TerraBeam;
+
         }
 
         // Additional hooks/methods here.
+        public override bool OnTileCollide(Vector2 oldVelocity)
+        {
+            Projectile.Kill();
+            return false;
+        }
     }
 }

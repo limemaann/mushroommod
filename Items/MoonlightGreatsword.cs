@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using mushroommod.Dusts;
+using mushroommod.Projectiles;
 using On.Terraria.GameContent;
 using System;
 using Terraria;
@@ -39,6 +40,10 @@ namespace mushroommod.Items
             Item.damage = 90;
             Item.knockBack = 4.75f;
             Item.DamageType = DamageClass.Melee;
+
+            // projectile properties
+            Item.shootSpeed = 12f;
+            Item.shoot = ModContent.ProjectileType<Moonlight_Projectile>();
         }
         public override void MeleeEffects(Player player, Rectangle hitbox)
         {
