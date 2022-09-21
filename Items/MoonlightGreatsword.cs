@@ -32,8 +32,9 @@ namespace mushroommod.Items
             // use properties
             Item.useStyle = ItemUseStyleID.Swing;
             Item.useAnimation = 16;
-            Item.useAnimation = 16;
+            Item.useTime = 32;
             Item.autoReuse = true;
+            Item.useTurn = false;
 
 
             // weapon properties
@@ -50,7 +51,7 @@ namespace mushroommod.Items
             Lighting.AddLight(new Vector2(hitbox.Width, hitbox.Height), (0f), (1.86f), (2.42f));
 
             if (Main.rand.Next(2) == 0)
-                Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width / 2, hitbox.Height / 2 , ModContent.DustType<ElectricDust>());
+                Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width / 2, hitbox.Height / 2 , DustID.Clentaminator_Cyan);
         }
 
         public override void AddRecipes()

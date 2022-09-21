@@ -33,3 +33,10 @@ September 16th, 2022
 September 19th, 2022
 	- Started on adding moonlight projectile
 	- TODO: Mess with values on moonlight projectile & moonlight sword to make projectile work better
+September 21st, 2022
+	- Adding values to moonlight projectile
+	- Making projectile shoot from sword
+	- Attempting to add dust trail to moonlight projectile
+	- Added dust trail
+	- changed main weapon dust to Clentaminator_Cyan
+	- TODO: add explosion when the projectile hits block/npc
