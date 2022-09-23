@@ -39,4 +39,8 @@ September 21st, 2022
 	- Attempting to add dust trail to moonlight projectile
 	- Added dust trail
 	- changed main weapon dust to Clentaminator_Cyan
-	- TODO: add explosion when the projectile hits block/npc
+	- TODO: add explosion when the moonlight projectile hits block/npc
+September 23rd, 2022
+	- Added explosion when moonlight projectile hits
+	- Moonlight Greatsword Fully Implimented!!!
+	- 

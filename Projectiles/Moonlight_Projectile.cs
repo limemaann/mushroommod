@@ -47,11 +47,16 @@ namespace mushroommod.Projectiles
 
             base.AI();
         }
-
         public override bool OnTileCollide(Vector2 oldVelocity)
         {
-            
-            return base.OnTileCollide(oldVelocity);
+            for (int i = 0; i < 10; i++)
+            {
+                Dust.NewDust(new Vector2(Projectile.position.X, Projectile.position.Y), 40, 40, DustID.Clentaminator_Cyan);
+                Projectile.light = 1.5f;
+            }
+
+            Projectile.light = 0.75f;
+            return true;
         }
 
         // Additional hooks/methods here.
