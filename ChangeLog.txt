@@ -43,4 +43,5 @@ September 21st, 2022
 September 23rd, 2022
 	- Added explosion when moonlight projectile hits
 	- Moonlight Greatsword Fully Implimented!!!
+	- Added Fireball.png and Fireball.cs
 	- 
