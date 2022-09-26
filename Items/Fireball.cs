@@ -1,4 +1,5 @@
-﻿using Terraria;
+﻿using mushroommod.Projectiles;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -36,7 +37,7 @@ namespace mushroommod.Items
 
             // projectile properties
             Item.shootSpeed = 6;
-            // Item.shoot
+            Item.shoot = ModContent.ProjectileType<Fireball_Projectile>();
         }
 
         public override void AddRecipes()

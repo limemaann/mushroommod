@@ -4,18 +4,18 @@ using Terraria.ModLoader;
 
 namespace mushroommod.Projectiles
 {
-    public class eightball_projectile : ModProjectile
+    public class Fireball_Projectile : ModProjectile
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Eight Ball");
+            DisplayName.SetDefault("Fireball Ball");
         }
 
         public override void SetDefaults()
         {
             Projectile.width = 10;
             Projectile.height = 10;
-            Projectile.aiStyle = ProjAIStyleID.Arrow;
+            Projectile.aiStyle = ProjAIStyleID.NebulaArcanum;
             Projectile.friendly = true;
             Projectile.DamageType = DamageClass.Magic;
         }
