@@ -45,4 +45,8 @@ September 23rd, 2022
 	- Moonlight Greatsword Fully Implimented!!!
 	- Added Fireball.png and Fireball.cs
 September 26, 2022
-	-Added Fireball_Projectile.png and Fireball_Projectile.cs
+	- Added Fireball_Projectile.png and Fireball_Projectile.cs
+September 28, 2022
+	- Changing values on Fireball and Fireball_Projectile to finalize the item
+	- Added Fireball_Projectile_Glowmask
+	- 

@@ -1,3 +1,7 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="D:\Program Files (x86)\Steam\steamapps\common\tModLoader\tMLMod.targets" />
+  <Reference Include="FNA.dll">
+  </Reference>
+  <Reference Include="Microsoft.Xna.Framework.Graphics.dll">
+  </Reference>
 </Project>

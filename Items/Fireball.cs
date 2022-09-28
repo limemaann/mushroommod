@@ -36,7 +36,7 @@ namespace mushroommod.Items
             Item.noMelee = true;
 
             // projectile properties
-            Item.shootSpeed = 6;
+            Item.shootSpeed = 6f;
             Item.shoot = ModContent.ProjectileType<Fireball_Projectile>();
         }
 
