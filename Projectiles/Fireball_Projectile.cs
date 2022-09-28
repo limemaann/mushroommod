@@ -49,7 +49,13 @@ namespace mushroommod.Projectiles
         
         public override void PostDraw(Color lightColor)
         {
+            SpriteBatch spriteBatch = Main.spriteBatch;
             Texture2D texture = (Texture2D) ModContent.Request<object>("mushroommod/Projectiles/Fireball_Projectile_Glowmask");
+            spriteBatch.Draw()
+            {
+
+            }
+
             
 
             //base.PostDraw(lightColor);
