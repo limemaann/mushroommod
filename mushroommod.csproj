@@ -15,4 +15,7 @@
       <HintPath>..\..\..\..\..\..\Downloads\Microsoft.Xna.Framework.Graphics.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Projectiles\Fireball Animation\" />
+  </ItemGroup>
 </Project>

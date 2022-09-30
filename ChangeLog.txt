@@ -49,4 +49,8 @@ September 26, 2022
 September 28, 2022
 	- Changing values on Fireball and Fireball_Projectile to finalize the item
 	- Added Fireball_Projectile_Glowmask
-	- 
+September 30, 2022
+	- made fireball glow! but it doesn't animate at the same time
+	- TODO: make it glow AND animate
+	- weird error, something is null?
+
