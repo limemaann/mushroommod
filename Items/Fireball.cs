@@ -42,7 +42,11 @@ namespace mushroommod.Items
 
         public override void AddRecipes()
         {
-            // Recipes here. See Basic Recipe Guide
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemID.SoulofLight, 15);
+            recipe.AddIngredient(ItemID.SoulofSight, 15);
+            recipe.AddIngredient(ItemID.CursedFlame, 15);
+            recipe.Register();
         }
     }
 }

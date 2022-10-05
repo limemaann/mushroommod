@@ -53,4 +53,10 @@ September 30, 2022
 	- made fireball glow! but it doesn't animate at the same time
 	- TODO: make it glow AND animate
 	- weird error, something is null?
-
+October 5, 2022
+	- made it glow and animate! Created an array of textures and set them to the right files to make it animate
+	- added homing AI to fireball projectile
+	- added dusts
+	- added explosion!!!!
+	- added recipy to fireball, 15 souls of light, 15 cursed flames, 15 souls of sight
+	- fully implimented fireball item!
