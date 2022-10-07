@@ -60,3 +60,6 @@ October 5, 2022
 	- added explosion!!!!
 	- added recipy to fireball, 15 souls of light, 15 cursed flames, 15 souls of sight
 	- fully implimented fireball item!
+October 7, 2022
+	- Added LizardWizard_Default.png
+	- TODO: Finish LizardWizard Sprite Sheet
