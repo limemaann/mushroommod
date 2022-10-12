@@ -16,7 +16,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NPCs\" />
     <Folder Include="Projectiles\Fireball Animation\" />
   </ItemGroup>
 </Project>

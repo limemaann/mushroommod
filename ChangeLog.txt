@@ -63,3 +63,7 @@ October 5, 2022
 October 7, 2022
 	- Added LizardWizard_Default.png
 	- TODO: Finish LizardWizard Sprite Sheet
+October 12, 2022
+	- Finished LizardWizard Sprite Sheet
+	- begain implimenting lizard wizard npc
+	- added lizardwizardhead.png for housing 
